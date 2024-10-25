@@ -104,7 +104,10 @@ function setHeight(target) {
 
     Array.from(target.children).forEach(function(item) {
         if (!!_options.gap) {
-            item.style.padding = `${_options.gap}px`;
+            item.style.padding-top = `${_options.gap}px`;
+            item.style.padding-bottom = `${_options.gap}px`;
+            item.style.padding-right = `${_options.gap/2}px`;
+            item.style.padding-left = `${_options.gap/2}px`;
             item.style.width = `${100 / getCurrentCols()}%`;
         }
         if (item.classList.contains('flexmasonry-break')) {
