@@ -66,7 +66,7 @@
 .flexmasonry-cols-10 .flexmasonry-item:nth-child(10n+6) { order: 6; }
 .flexmasonry-cols-10 .flexmasonry-item:nth-child(10n+7) { order: 7; }
 .flexmasonry-cols-10 .flexmasonry-item:nth-child(10n+8) { order: 8; }
-.flexmasonry-cols-10 .flexmasonry-item:nth-child(10n+8) { order: 9; }
+.flexmasonry-cols-10 .flexmasonry-item:nth-child(10n+9) { order: 9; }
 .flexmasonry-cols-10 .flexmasonry-item:nth-child(10n)   { order: 10; }
 
 .flexmasonry-break {
@@ -82,5 +82,5 @@
 .flexmasonry-break-5 { order: 5; }
 .flexmasonry-break-6 { order: 6; }
 .flexmasonry-break-7 { order: 7; }
-.flexmasonry-break-7 { order: 8; }
-.flexmasonry-break-7 { order: 9; }
+.flexmasonry-break-8 { order: 8; }
+.flexmasonry-break-9 { order: 9; }
