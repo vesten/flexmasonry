@@ -108,8 +108,9 @@ function setHeight(target) {
             item.style.paddingBottom = `${_options.gap}px`;
             item.style.paddingRight = `${_options.gap/2}px`;
             item.style.paddingLeft = `${_options.gap/2}px`;
-            item.style.width = `${100 / getCurrentCols()}%`;
         }
+        item.style.width = `${100 / getCurrentCols()}%`;
+
         if (item.classList.contains('flexmasonry-break')) {
             return;
         }
